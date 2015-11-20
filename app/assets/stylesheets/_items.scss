@@ -1,0 +1,9 @@
+.item{
+	padding: 0; //bootstrap override
+	border-radius: 5px;
+	border: 2px solid #E0E0E0;
+
+	& .img-responsive {
+		width: 100%;
+	}
+}
