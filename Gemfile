@@ -27,6 +27,9 @@ gem 'devise'
 #gem 'bootstrap', '~> 4.0.0.alpha1'
 gem 'bootstrap-sass', '~> 3.3.5'
 
+#https://github.com/ddollar/foreman
+gem 'foreman', '~> 0.78.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
