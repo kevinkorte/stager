@@ -1,23 +1,29 @@
+body {
+	background: #F9FBFC;
+}
+
 .menu-left {
 	position: fixed;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 250px;
-	background: #38303D;
+	width: 220px;
+	/* Rectangle 9: */
+	background-image: linear-gradient(0deg, #624468 10%, #3B2753 100%);
+	//border: 1px solid #979797;
 }
 
-.wrapper{
-	margin-left: 265px;
-	position: relative;
-
+.wrapper {
+	margin-left: 235px;
+	margin-right: 15px;
 }
 
-.menu-bar{
-	margin-left: 250px;
-	margin-bottom: 20px;
-	width: 100%;
-	border-bottom: 1px solid #CACACA;
-	height: 58px;
+h1 {
+	display: inline-block;
+	padding-right: 22px;
+}
+
+.text-success {
+	color: #3EBF00;
 }
